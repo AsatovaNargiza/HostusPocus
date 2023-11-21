@@ -1,0 +1,22 @@
+<svg width="85" height="10" viewBox="0 0 85 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="85" height="10" fill="#F2F2F2"/>
+<g id="Design" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="4459" transform="translate(-918 -2988)" fill="white"/>
+<g id="Group 21" clip-path="url(#clip1_0_1)">
+<g id="Group 20">
+<path id="Oval 4" fill-rule="evenodd" clip-rule="evenodd" d="M55 10C57.7614 10 60 7.76142 60 5C60 2.23858 57.7614 0 55 0C52.2386 0 50 2.23858 50 5C50 7.76142 52.2386 10 55 10Z" fill="#DE3C3C"/>
+<path id="Oval 4_2" fill-rule="evenodd" clip-rule="evenodd" d="M82.5 8C83.8807 8 85 6.88071 85 5.5C85 4.11929 83.8807 3 82.5 3C81.1193 3 80 4.11929 80 5.5C80 6.88071 81.1193 8 82.5 8Z" fill="#949EA7"/>
+<path id="Oval 4_3" fill-rule="evenodd" clip-rule="evenodd" d="M27.5 8C28.8807 8 30 6.88071 30 5.5C30 4.11929 28.8807 3 27.5 3C26.1193 3 25 4.11929 25 5.5C25 6.88071 26.1193 8 27.5 8Z" fill="#949EA7"/>
+<path id="Oval 4_4" fill-rule="evenodd" clip-rule="evenodd" d="M2.5 8C3.88071 8 5 6.88071 5 5.5C5 4.11929 3.88071 3 2.5 3C1.11929 3 0 4.11929 0 5.5C0 6.88071 1.11929 8 2.5 8Z" fill="#949EA7"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="4459" fill="white" transform="translate(-918 -2988)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="2024" height="691" fill="white" transform="translate(-972 -681)"/>
+</clipPath>
+</defs>
+</svg>

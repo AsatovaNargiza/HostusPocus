@@ -1,0 +1,19 @@
+@import './components/reset';
+@import './components/fonts.scss';
+@import './components/variables';
+@import './components/header';
+@import './components/main';
+@import './components/clients';
+@import './components/price';
+@import './components/footer';
+
+
+body {
+    background-color: linear-gradient(180deg, #FFF 15.36%, #F6F6F6 93.67%);
+}
+    .container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

@@ -1,0 +1,181 @@
+.container {
+    .main {
+        display: flex;
+        gap: 122px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        justify-content: center;
+        background: white;
+
+
+        .main__content {
+            padding-top: 150px;
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+
+
+            .main__content-title {
+                color: #212121;
+                font-family: $pop;
+                font-size: 24px;
+                font-weight: 500;
+
+                &:hover {
+                    color: $c-blue;
+                }
+            }
+
+            & p {
+                color: #C5C5C5;
+                font-family: $rob;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-top: 12px;
+                margin-bottom: 30px;
+                max-width: 480px;
+            }
+
+            .nav__list-link-style {
+                @extend %btn-style;
+
+                & .nav__list-link-style1 {
+                    @extend %btn-style1;
+
+                }
+
+                &:hover {
+                    background-color: #C00000;
+                }
+            }
+        }
+    }
+
+    .servis {
+        display: flex;
+        gap: 153px;
+        justify-content: center;
+
+        .servis__item2 {
+            padding-top: 130px;
+        }
+
+        .servis__item,
+        .servis__item2 {
+            display: flex;
+            flex-direction: column;
+            max-width: 480px;
+            gap: 130px;
+            max-height: 780px;
+
+            .servis__font {
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 4px 15px 0px rgba(7, 42, 68, 0.10);
+                border-radius: 6px;
+                height: 260px;
+                padding-left: 30px;
+                padding-top: 55px;
+                transition: 1s;
+                position: relative;
+                overflow: hidden;
+                gap: 15px ;
+                &:hover{
+                    color: #fff;
+                    background: #DE3C3C;
+                    transform: scale(1);
+                }
+
+                & a {
+                    max-width: 60px;
+                    max-height: 60px;
+                    position: relative;
+                    z-index: 500;
+
+                }
+
+                .servis-icon1, .servis-icon2 
+                    {
+                    transition: 1s;
+                    display: none;
+                  
+                }
+                &:hover .servis-icon1{
+                    position: absolute;
+                    /* z-index: 2; */
+                    top: 0;
+                    left: 0;
+                    display: block;
+                }
+               
+                 &:hover .servis-icon2 {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    display: block;
+                }
+
+                & h2 { color: #212121;
+                    font-family: $pop;
+                    font-size: 18px;
+                    font-weight: 500;
+                    transition: .5s;
+                &:hover{
+                    color: #C5C5C5;
+                    transform: scale(1);
+                }
+            }
+
+                & p {
+                    padding-bottom: 38px;
+                    color: #C5C5C5;
+                    font-family:$rob;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width: 360px;
+                }
+            }}}}
+            .wide-part{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: url('../images/wide-part.png') center center/cover;
+                max-height: 342px;
+                padding-top: 98px;
+                padding-bottom: 95px;
+                margin-top: 216px;
+                margin-bottom: 200px;
+            & h2{ 
+                 color: #FFF;
+                text-align: center;
+                font-family: $pop;
+                font-size: 26px;
+                font-weight: 500;
+            }
+            & p{
+                color: #C5C5C5;
+                font-family: $rob;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-top: 12px;
+                padding-bottom: 30px;
+            }
+    
+        .nav__list-link-style {
+                @extend %btn-style;
+
+                & .nav__list-link-style1 {
+                    @extend %btn-style1;
+
+                }
+
+                &:hover {
+                    background-color: #C00000;
+                }
+            }
+        }
+            
